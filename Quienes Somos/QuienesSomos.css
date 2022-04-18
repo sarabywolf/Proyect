@@ -1,0 +1,129 @@
+/*HEADER*/
+
+.d-flex {
+    color: black;
+    margin-right: 5px;
+}
+
+.d-flex button {
+    font-size: 18px;
+    margin-right: 8px;
+}
+
+.nav-link {
+    font-size: 18px;
+}
+
+.d-flex input {
+    font-size: 18px;
+}
+
+.logo {
+    width: 3rem;
+    border: 1px solid;
+    border-radius: 50%;
+}
+
+
+/*body*/
+
+.Container {
+    display: block;
+}
+
+.Container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(/src/fondo\ Quienesosmos.jpg);
+    background-size: cover;
+    background-repeat: none;
+    background-attachment: fixed;
+    height: 430px;
+    text-align: center;
+}
+
+.Container1 h2 {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.Container1 p {
+    font-size: 25px;
+    color: rgb(248, 248, 248);
+    margin: 0px;
+    text-align: center;
+}
+
+.Container2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 15%;
+    margin-bottom: 10%;
+}
+
+.ContainerVision {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.ContainerVision h2 {
+    font-size: 25px;
+    color: rgba(67, 169, 165, 0.747);
+    text-align: center;
+}
+
+.ContainerVision p {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.671);
+    margin: 0px;
+    text-align: center;
+}
+
+.ContainerVision div ul li {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.671);
+    margin: 0px;
+}
+
+.imagen {
+    width: 50%;
+    text-align: right;
+    overflow: hidden;
+}
+
+.imagen img {
+    width: 600px;
+    height: initial;
+}
+
+.Container3 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: rgb(120 120 120 / 11%);
+}
+
+.Container3 h3,
+p {
+    text-align: center;
+}
+
+.Container3 h3 {
+    font-family: inherit;
+    font-size: 25px;
+    color: rgba(67, 169, 165, 0.747);
+}
+
+.Container3 p {
+    color: rgba(0, 0, 0, 0.367);
+    font-size: 25px;
+}
+
+
+/*footer*/

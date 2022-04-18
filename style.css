@@ -1,0 +1,125 @@
+/*HEADER*/
+
+.d-flex {
+    color: black;
+    margin-right: 5px;
+}
+
+.d-flex button {
+    font-size: 18px;
+    margin-right: 8px;
+}
+
+.nav-link {
+    font-size: 18px;
+}
+
+.d-flex input {
+    font-size: 18px;
+}
+
+.logo {
+    width: 3rem;
+    border: 1px solid;
+    border-radius: 50%;
+}
+
+
+/* aside */
+
+.Container1 {
+    background-image: url(src/iamgen\ 3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Container1 P {
+    color: rgb(212, 212, 212);
+    font-size: 50px;
+    text-align: center;
+}
+
+
+/*container 2*/
+
+.Container2 {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.subContainer2 {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 7%;
+}
+
+.Container2 div {
+    text-align: center;
+}
+
+.Container2 P {
+    color: rgb(119, 119, 119);
+    font-size: 35px;
+    text-align: center;
+    margin-top: 13%;
+}
+
+.Container2 div a {
+    color: aliceblue;
+    background-color: rgb(53, 141, 255);
+    border-radius: 5px;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.Container2 div a:hover,
+.Container3 a:hover {
+    background-color: rgb(26, 98, 193);
+}
+
+.img2 {
+    background-image: url(src/imagen\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: initial;
+}
+
+
+/*container 3*/
+
+.Container3 {
+    background-image: url(src/paralax.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Container3 P {
+    color: rgb(251, 251, 251);
+    font-size: 35px;
+    text-align: center;
+}
+
+.Container3 a {
+    color: aliceblue;
+    background-color: rgb(53, 141, 255);
+    border-radius: 5px;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 20px;
+}

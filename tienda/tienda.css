@@ -1,0 +1,202 @@
+body {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+.d-flex {
+    color: black;
+    margin-right: 5px;
+}
+
+.d-flex button {
+    font-size: 18px;
+    margin-right: 8px;
+}
+
+.nav-link {
+    font-size: 18px;
+}
+
+.d-flex input {
+    font-size: 18px;
+}
+
+.logo {
+    width: 3rem;
+    border: 1px solid;
+    border-radius: 50%;
+}
+
+.navbar {
+    margin-bottom: 2%;
+}
+
+
+/*container fitlros*/
+
+.Container {
+    display: flex;
+    width: fit-content;
+}
+
+.Container_Cards {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    overflow: hidden;
+}
+
+.Container_NavBar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ContainerFiltroNav {
+    width: 100%;
+}
+
+.Container_NavBar ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Container_NavBar ul li {
+    padding: 8px;
+    list-style: none;
+    border-radius: 3px;
+    background: rgba(65, 175, 162, 0.137);
+}
+
+.Container_NavBar ul li a {
+    text-decoration: none;
+    color: rgba(70, 70, 70, 0.774);
+}
+
+.Container_NavBar ul li:hover {
+    background: rgba(65, 175, 162, 0.068);
+}
+
+.ContainerBusqueda {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.buscar {
+    width: 78%;
+    border-radius: 100px;
+    background: #fff;
+    border: 1px solid;
+    text-align: center;
+    font-size: 16px;
+}
+
+.Container_Generos ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 300px;
+}
+
+.Container_Generos ul li {
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    list-style: none;
+    border-radius: 50px;
+    background: rgba(65, 175, 162, 0.137);
+    margin-left: 25px;
+}
+
+.Container_Generos ul li:hover {
+    background: rgba(65, 175, 162, 0.068);
+}
+
+.Container_Generos ul li a {
+    text-decoration: none;
+    color: rgba(70, 70, 70, 0.774);
+}
+
+
+/*Cards*/
+
+.Cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-right: 15%;
+}
+
+.Card {
+    width: 100%;
+    overflow: hidden;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+    padding: 5%;
+}
+
+.ContainerIngo {
+    display: flex;
+    flex-direction: column;
+}
+
+.CardContainer {
+    margin: 3%;
+    background: rgba(65, 175, 162, 0.047);
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.Card h2 {
+    font-size: 20px;
+}
+
+.Card p {
+    font-size: 17px;
+    color: black;
+}
+
+.imgCard {
+    max-width: 150px;
+    width: 135px;
+}
+
+.añadir {
+    border: 1px solid;
+    border-radius: 5px;
+    color: rgb(53, 141, 255);
+}
+
+
+/*footer*/
+
+.d-flex {
+    color: black;
+    margin-right: 5px;
+}
+
+.d-flex button {
+    font-size: 18px;
+    margin-right: 8px;
+}
+
+.nav-link {
+    font-size: 18px;
+}
+
+.d-flex input {
+    font-size: 18px;
+}
+
+.logo {
+    width: 3rem;
+    border: 1px solid;
+    border-radius: 50%;
+}
